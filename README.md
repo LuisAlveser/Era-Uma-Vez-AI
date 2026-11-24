@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✨ Era Uma Vez AI — Gerador de Histórias Infantis com Inteligência Artificial
 
-## Getting Started
+Uma plataforma web moderna e lúdica construída com **Next.js** que utiliza Inteligência Artificial para criar histórias infantis personalizadas, educativas e ilustradas sob medida para cada criança.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📖 Sobre o Projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O **Era Uma Vez AI** transforma a hora de dormir e o incentivo à leitura em uma experiência mágica e interativa. Pais, educadores ou as próprias crianças podem escolher personagens, cenários, valores morais e a faixa etária para gerar contos exclusivos em segundos.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Principais Funcionalidades
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Personalização Completa:** Escolha o nome do protagonista, tema (aventura, fantasia, espaço, animais), moral da história (amizade, coragem, empatia) e faixa etária (3–5, 6–8, 9–12 anos).
+* **Geração de Texto com IA:** Narrativas envolventes, seguras e adaptadas ao vocabulário de cada idade.
+* **Ilustrações Automáticas:** Geração de capas e cenas ilustradas para acompanhar cada capítulo da história.
+* **Biblioteca Pessoal:** Salve, favorite e compartilhe as histórias criadas em formato de livro digital ou PDF.
+* **Filtro de Segurança Infantil:** Prompts estruturados para garantir conteúdo 100% seguro, positivo e livre de temas inadequados.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tecnologias Utilizadas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **Framework:** [Next.js](https://nextjs.org/) (App Router)
+* **Linguagem:** TypeScript
+* **Estilização:** Tailwind CSS & Shadcn/UI
+* **Inteligência Artificial:**  Google Gemini API (Texto e Imagem)
+* **Autenticação & Banco de Dados:** NextAuth.js / Supabase (ou Prisma + PostgreSQL)
+* **Deploy:** Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Como Executar o Projeto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Pré-requisitos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Node.js 18+ instalado
+* Gerenciador de pacotes (`npm`, `yarn`, `pnpm` ou `bun`)
+* Uma chave de API de IA (ex: `OPENAI_API_KEY` ou `GEMINI_API_KEY`)
+
+
